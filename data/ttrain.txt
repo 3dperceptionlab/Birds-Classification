@@ -1,0 +1,2 @@
+/data/frames/004-squacco_heron/frame_00000.jpg
+/data/frames/004-squacco_heron/frame_00010.jpg
