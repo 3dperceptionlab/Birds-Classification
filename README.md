@@ -26,7 +26,7 @@ And execute it with:
 bash launch_docker.sh
 ```
 
-Ensure that the Visual-Wetland birds dataset is mounted in the route `/mnt/chan-twin`.
+Ensure that the Visual-Wetland birds dataset is correctly mounted in your server and customize the script with your specific mounting directory.
 
 ## Birds detection model (YOLOv9)
 
@@ -55,7 +55,7 @@ The classification scripts are availabe in the folder `crops-clf`. Within this f
 
 - `detect_rpi.py`. Make species/behavior prediction given an image crop of a bird. Weights for the species and behavior classifier should be passed as arguments to the script.
 
-Weights obtained are available in the next [Drive folder](https://drive.google.com/file/d/1MLh-bLT3r3GsO0DbD5Z0UX2kyTK-YQ3L/view?usp=sharing).
+Weights obtained are available in the next [Drive folder](https://drive.google.com/file/d/1MLh-bLT3r3GsO0DbD5Z0UX2kyTK-YQ3L/view?usp=sharing). These weights are released upon request.
 
 ## License
 
