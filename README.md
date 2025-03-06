@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 Then, to deploy the model use the inference instructions given in [YOLOv9 GitHub](https://github.com/WongKinYiu/yolov9). As the official code was partially customized to be
-deployed in our RPI5, the script `detect_rpi.py` will be used instead of the original `detect.py`. It is recommended to use as model weights the ones available in this (link)[https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c-converted.pt]. Note that the model downloaded is a *converted* YOLOv9 model. The customized script was prepared to be used with this variant of the YOLOv9 model series as it is the one which reports higher results.
+deployed in our RPI5, the script `detect_rpi.py` will be used instead of the original `detect.py`. It is recommended to use as model weights the ones available in this [link](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c-converted.pt). Note that the model downloaded is a *converted* YOLOv9 model. The customized script was prepared to be used with this variant of the YOLOv9 model series as it is the one which reports higher results.
 
 Some image samples taken from *El Hondo* natural park are available in the folder `.assets`.
 
